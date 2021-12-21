@@ -1,7 +1,7 @@
-##############################################
+                                           ##############################################
 
-ArchLinux Fast Install v2.4.0
-##############################################
+                                                ArchLinux Fast Install v2.4.0
+                                          ##############################################
 
 Описание
 Этот скрипт не задумывался, как обычный установочный с большим выбором DE, разметкой диска и т.д. И он не предназначен для новичков. Он предназначен для тех, кто ставил ArchLinux руками и понимает, что и для чего нужна каждая команда.
@@ -21,10 +21,10 @@ Cостоит из 3 частей.
 
 pacman -Syy
 pacman -S wget
-wget git.io/archuefi1.sh && sh archuefi1.sh
+wget git.io/archuefi_1.sh && sh archuefi_1.sh
 или просто
 
-curl -OL git.io/archuefi1.sh && sh archuefi1.sh
+curl -OL git.io/archuefi_1.sh && sh archuefi_1.sh
 Запустится установка минимальной системы. 2-я часть ставится автоматически и это базовая установка ArchLinux без программ.
 
 3-я часть не обязательная. Она устанавливает программы, AUR (yay), мои конфиги XFCE/i3wm. Предварительно установите wget командой:
@@ -32,4 +32,4 @@ curl -OL git.io/archuefi1.sh && sh archuefi1.sh
 sudo pacman -S wget
 Установка 3-й части производится из терминала командой:
 
-wget git.io/archuefi3.sh && sh archuefi3.sh
+wget git.io/archuefi_3.sh && sh archuefi_3.sh
