@@ -18,14 +18,14 @@ Cостоит из 3 частей.
 Скачать и записать на флешку ISO образ Arch Linux https://www.archlinux.org/download/
 
 Скачать и запустить скрипт командой:
-
-```pacman -Syy
+``` 
+pacman -Syy
 pacman -S wget
-wget git.io/archuefi_1.sh && sh archuefi_1.sh```
-
+wget git.io/archuefi_1.sh && sh archuefi_1.sh 
+ ```
 или просто
 
-```curl -OL git.io/archuefi_1.sh && sh archuefi_1.sh```
+``` curl -OL git.io/archuefi_1.sh && sh archuefi_1.sh ```
 Запустится установка минимальной системы. 2-я часть ставится автоматически и это базовая установка ArchLinux без программ.
 
 3-я часть не обязательная. Она устанавливает программы, AUR (yay), мои конфиги XFCE/i3wm. Предварительно установите wget командой:
@@ -33,4 +33,4 @@ wget git.io/archuefi_1.sh && sh archuefi_1.sh```
 ```sudo pacman -S wget```
 Установка 3-й части производится из терминала командой:
 
-```wget git.io/archuefi_3.sh && sh archuefi_3.sh```
+``` wget git.io/archuefi_3.sh && sh archuefi_3.sh ```
