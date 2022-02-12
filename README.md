@@ -44,5 +44,5 @@ sudo pacman -S wget
 Установка 3-й части производится из терминала командой:
 
 ```
-wget git.io/archuefi_3.sh && sh archuefi_3.sh
+wget bit.do/archuefi_3 && sh archuefi_3.sh
 ```
