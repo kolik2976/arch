@@ -27,7 +27,7 @@ Cостоит из 3 частей.
 ```
 pacman -Syy
 pacman -S wget
-wget bit.do/archuefi_1 && sh archuefi_1.sh
+wget bit.do/archuefi_1.sh && sh archuefi_1.sh
 ```
 или просто
 
@@ -44,5 +44,5 @@ sudo pacman -S wget
 Установка 3-й части производится из терминала командой:
 
 ```
-wget bit.do/archuefi_3 && sh archuefi_3.sh
+wget bit.do/archuefi_3.sh && sh archuefi_3.sh
 ```
