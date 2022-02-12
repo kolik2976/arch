@@ -27,12 +27,12 @@ Cостоит из 3 частей.
 ```
 pacman -Syy
 pacman -S wget
-wget git.io/archuefi_1.sh && sh archuefi_1.sh
+wget bit.do/archuefi_1 && sh archuefi_1.sh
 ```
 или просто
 
 ```
-curl -OL git.io/archuefi_1.sh && sh archuefi_1.sh
+curl -OL bit.do/archuefi_1 && sh archuefi_1.sh
 ```
 Запустится установка минимальной системы. 2-я часть ставится автоматически и это базовая установка ArchLinux без программ.
 
